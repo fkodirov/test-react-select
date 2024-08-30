@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+input{
+  font-family: "Inter", sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 22px;
+
+  &::placeholder {
+    color: rgba(19, 8, 23, 0.4);
+  }
+  &:disabled{
+    background: rgba(255, 255, 255, 1);
+  }
+}
+
